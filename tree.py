@@ -6,9 +6,9 @@ def tree(size):
     else:
         forward(size)
         left(35)
-        tree(size/2)
+        tree(size / 2)
         right(70)
-        tree(size/2)
+        tree(size / 2)
         left(35)
         back(size)
     return
@@ -16,5 +16,4 @@ def tree(size):
 
 left(90)
 tree(100)
-
 
