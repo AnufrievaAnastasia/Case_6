@@ -12,7 +12,9 @@ def koch(order, size):
         koch(order - 1, size / 3)
         left(60)
         koch(order - 1, size / 3)
-order = 6
-size = 10000
+
+order = int(input())
+size = int(input())
+
 koch(order, size)
 

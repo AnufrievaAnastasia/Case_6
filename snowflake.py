@@ -31,6 +31,7 @@ def snowflake(order, size):
 
 
 
-order = 2
-size = 100
+order = int(input())
+size = int(input())
+
 snowflake(order, size)

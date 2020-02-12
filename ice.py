@@ -12,6 +12,8 @@ def ice(order, size):
         ice(order - 1, size / 4)
         left(90)
         ice(order - 1, size / 2)
-order = 6
-size = 10000
+
+order = int(input())
+size = int(input())
+
 ice(order, size)

@@ -12,8 +12,10 @@ def koch2(order, size):
         koch2(order - 1, size / 3)
         left(60)
         koch2(order - 1, size / 3)
-order = 2
-size = 100
+
+order = int(input())
+size = int(input())
+
 koch2(order, size)
 right(120)
 koch2(order, size)
