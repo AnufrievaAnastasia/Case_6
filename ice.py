@@ -1,3 +1,6 @@
+# Anufrieva A. 67%
+# Zhuravleva A. 50%
+
 from turtle import *
 
 
